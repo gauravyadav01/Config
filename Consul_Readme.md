@@ -15,10 +15,9 @@
 
 ```
 {
-  "bind_addr": "192.168.10.3",
   "bootstrap": true,
   "client_addr": "0.0.0.0",
-  "datacenter: :wec"
+  "datacenter": "wec",
   "data_dir": "/var/lib/consul",
   "ports": {
     "dns": 8600,
@@ -28,7 +27,7 @@
     "server": 8300
   },
   "retry_join": [
-    "192.168.10.3"
+    ""
   ],
   "server": true,
   "ui": true
