@@ -15,34 +15,33 @@ Server: /etc/nomad.d/config.json
 
 ```
 {
-	"data_dir": "/var/lib/nomad",
-	"bind_addr": "IP_ADDR",
-	"region": "us-wec",
-	"datacenter": "wec",
-	"client": {
-		"enabled": false
-	},
-	"server": {
-		"enabled": true,
-		"bootstrap_expect": 2
-	}
+  "data_dir": "/var/lib/nomad",
+  "bind_addr": "192.168.10.6",
+  "datacenter": "wec",
+  "client": {
+    "enabled": false
+  },
+  "server": {
+    "enabled": true,
+    "bootstrap_expect": 2
+  }
 }
 ```
 Client /etc/nomad.d/config.json
 
 ```
 {
-	"data_dir": "/var/lib/nomad",
-	"bind_addr": "IP_ADDR",
-	"datacenter": "wec",
-	"region": "us-wec",
-	"client": {
-		"enabled": true
-	},
-	"server": {
-		"enabled": false,
-		"bootstrap_expect": 2
-	}
+  "data_dir": "/var/lib/nomad",
+  "bind_addr": "IP_ADDR",
+  "datacenter": "wec",
+  "region": "us-wec",
+  "client": {
+    "enabled": true
+  },
+  "server": {
+    "enabled": false,
+    "bootstrap_expect": 2
+  }
 }
 ```
 
