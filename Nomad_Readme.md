@@ -17,6 +17,7 @@ Server: /etc/nomad.d/config.json
 {
 	"data_dir": "/var/lib/nomad",
 	"bind_addr": "IP_ADDR",
+	"region": "us-wec",
 	"datacenter": "wec",
 	"client": {
 		"enabled": false
@@ -34,6 +35,7 @@ Client /etc/nomad.d/config.json
 	"data_dir": "/var/lib/nomad",
 	"bind_addr": "IP_ADDR",
 	"datacenter": "wec",
+	"region": "us-wec",
 	"client": {
 		"enabled": true
 	},
