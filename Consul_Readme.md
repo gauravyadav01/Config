@@ -1,4 +1,4 @@
-# Condul Config
+# Consul Config
 
 1. Download Consul Liniux 64 bit from https://www.consul.io/downloads.html
 2. Create a directory layout 
